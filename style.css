@@ -435,7 +435,22 @@ footer{
     color:#ffb7e1;
     font-family:'JetBrains Mono',monospace;
 }
+.project-btn{
+    display:inline-block;
+    margin-top:15px;
+    background:#ff79c6;
+    color:white;
+    padding:10px 18px;
+    border-radius:10px;
+    text-decoration:none;
+    font-weight:500;
+    transition:0.3s;
+}
 
+.project-btn:hover{
+    transform:translateY(-3px);
+    box-shadow:0 0 15px #ff79c6;
+}
 /* ==========================
    FOOTER
 ========================== */
